@@ -1,0 +1,63 @@
+.navbar-brand{
+    font-weight: bold;
+}
+
+.sign-in{
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.ml-auto{
+    margin-left: auto !important;
+}
+
+.btn-primary{
+    background: #3C67CF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 0;
+    color: #FCCF7A;
+}
+
+.btn-primary:hover{
+    background: #3257ad;
+    color: #c7a360;
+    border: 0;
+}
+
+.btn-secondary{
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 1px solid #3C67CF;
+    color: #FCCF7A;
+}
+
+.btn-secondary:hover{
+    background: none;
+    color: #c7a360;
+    border: 1px solid #264386;
+}
+
+.content h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.content p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 810px){
+    .btn-primary, .btn-secondary{
+        margin-top: 10px;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+} 
